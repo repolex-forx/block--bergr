@@ -1,0 +1,11 @@
+{
+  "org": "block",
+  "repo": "bergr",
+  "versions": [
+    {
+      "commit": "bbe9bf8c4a668fa56ec39a4214e078b52be5ab96",
+      "tag": "main",
+      "parsed_at": "2026-10-01T09:43:36.726133+00:00"
+    }
+  ]
+}
