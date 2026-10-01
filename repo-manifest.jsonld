@@ -8,8 +8,9 @@
     {
       "@id": "https://repolex.ai/r/block/bergr/commit/bbe9bf8c4a668fa56ec39a4214e078b52be5ab96",
       "git:hexsha": "bbe9bf8c4a668fa56ec39a4214e078b52be5ab96",
-      "repolex:parseStatus": "enrich_complete",
-      "git:tagName": "main"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "main",
+      "repolex:parsedAt": "2026-10-01T09:43:36.725699+00:00"
     },
     {
       "@id": "https://repolex.ai/r/block/bergr/commit/a8aaa0a7cef8426fed9ca558d428853f736a6c5c",
