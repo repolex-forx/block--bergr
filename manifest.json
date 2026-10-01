@@ -50,6 +50,290 @@
       ],
       "ast": [
         "aggregate/ast/bbe9bf8c4a668fa56ec39a4214e078b52be5ab96/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/bbe9bf8c4a668fa56ec39a4214e078b52be5ab96.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "anyhow",
+          "ecosystem": "CARGO",
+          "version": "1.0.100",
+          "githubOrg": "dtolnay",
+          "githubRepo": "anyhow",
+          "githubCommit": "18c2598afa0f996f56217ef128aa3a20ea1e9512",
+          "githubTag": "1.0.100",
+          "githubUrl": "https://github.com/dtolnay/anyhow",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "async-stream",
+          "ecosystem": "CARGO",
+          "version": "0.3.6",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "async-stream",
+          "githubCommit": "b0b2f22df8e87b7fed7b2fa234509797adbff7db",
+          "githubTag": "v0.3.6",
+          "githubUrl": "https://github.com/tokio-rs/async-stream",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "async-trait",
+          "ecosystem": "CARGO",
+          "version": "0.1",
+          "githubOrg": "dtolnay",
+          "githubRepo": "async-trait",
+          "githubUrl": "https://github.com/dtolnay/async-trait",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "aws-config",
+          "ecosystem": "CARGO",
+          "version": "1.8.11",
+          "githubOrg": "smithy-lang",
+          "githubRepo": "smithy-rs",
+          "githubUrl": "https://github.com/smithy-lang/smithy-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "aws-credential-types",
+          "ecosystem": "CARGO",
+          "version": "1.2.10",
+          "githubOrg": "smithy-lang",
+          "githubRepo": "smithy-rs",
+          "githubUrl": "https://github.com/smithy-lang/smithy-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "aws-sdk-s3",
+          "ecosystem": "CARGO",
+          "version": "1.115.0",
+          "githubOrg": "awslabs",
+          "githubRepo": "aws-sdk-rust",
+          "githubUrl": "https://github.com/awslabs/aws-sdk-rust",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "bytes",
+          "ecosystem": "CARGO",
+          "version": "1.11.0",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "bytes",
+          "githubCommit": "a7952fb4478f6dc226f623b217432fbc6f8dad24",
+          "githubTag": "v1.11.0",
+          "githubUrl": "https://github.com/tokio-rs/bytes",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "clap",
+          "ecosystem": "CARGO",
+          "version": "4.5.53",
+          "githubOrg": "clap-rs",
+          "githubRepo": "clap",
+          "githubCommit": "8d87e70789ed7832aa93473779d248090712d66b",
+          "githubTag": "v4.5.53",
+          "githubUrl": "https://github.com/clap-rs/clap",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "futures",
+          "ecosystem": "CARGO",
+          "version": "0.3.31",
+          "githubOrg": "rust-lang",
+          "githubRepo": "futures-rs",
+          "githubCommit": "1e052816b09890925cfdfcbe8d390cdaae5e4c38",
+          "githubTag": "0.3.31",
+          "githubUrl": "https://github.com/rust-lang/futures-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "http",
+          "ecosystem": "CARGO",
+          "version": "1.3.1",
+          "githubOrg": "hyperium",
+          "githubRepo": "http",
+          "githubCommit": "8c1fb204b8594ce5cf198af8568453f9df4ed953",
+          "githubTag": "v1.3.1",
+          "githubUrl": "https://github.com/hyperium/http",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "iceberg",
+          "ecosystem": "CARGO",
+          "version": "0.10.0",
+          "githubOrg": "apache",
+          "githubRepo": "iceberg-rust",
+          "githubCommit": "b882e63652f4d4a172812994679a1dbc0c64cbd0",
+          "githubTag": "v0.10.0",
+          "githubUrl": "https://github.com/apache/iceberg-rust",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "iceberg-catalog-glue",
+          "ecosystem": "CARGO",
+          "version": "0.10.0",
+          "githubOrg": "apache",
+          "githubRepo": "iceberg-rust",
+          "githubCommit": "b882e63652f4d4a172812994679a1dbc0c64cbd0",
+          "githubTag": "v0.10.0",
+          "githubUrl": "https://github.com/apache/iceberg-rust",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "iceberg-catalog-rest",
+          "ecosystem": "CARGO",
+          "version": "0.10.0",
+          "githubOrg": "apache",
+          "githubRepo": "iceberg-rust",
+          "githubCommit": "b882e63652f4d4a172812994679a1dbc0c64cbd0",
+          "githubTag": "v0.10.0",
+          "githubUrl": "https://github.com/apache/iceberg-rust",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "iceberg-storage-opendal",
+          "ecosystem": "CARGO",
+          "version": "0.10.0",
+          "githubOrg": "apache",
+          "githubRepo": "iceberg-rust",
+          "githubCommit": "b882e63652f4d4a172812994679a1dbc0c64cbd0",
+          "githubTag": "v0.10.0",
+          "githubUrl": "https://github.com/apache/iceberg-rust",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "reqsign-core",
+          "ecosystem": "CARGO",
+          "version": "3.3.0",
+          "githubOrg": "apache",
+          "githubRepo": "opendal-reqsign",
+          "githubUrl": "https://github.com/apache/opendal-reqsign",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "reqwest",
+          "ecosystem": "CARGO",
+          "version": "0.12",
+          "githubOrg": "seanmonstar",
+          "githubRepo": "reqwest",
+          "githubUrl": "https://github.com/seanmonstar/reqwest",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde",
+          "ecosystem": "CARGO",
+          "version": "1.0.228",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubCommit": "a866b336f14aa57a07f0d0be9f8762746e64ecb4",
+          "githubTag": "v1.0.228",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_json",
+          "ecosystem": "CARGO",
+          "version": "1.0.145",
+          "githubOrg": "serde-rs",
+          "githubRepo": "json",
+          "githubCommit": "efa66e3a1d61459ab2d325f92ebe3acbd6ca18b1",
+          "githubTag": "v1.0.145",
+          "githubUrl": "https://github.com/serde-rs/json",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "strum",
+          "ecosystem": "CARGO",
+          "version": "0.28.0",
+          "githubOrg": "Peternator7",
+          "githubRepo": "strum",
+          "githubCommit": "7376771128834d28bb9beba5c39846cba62e71ec",
+          "githubTag": "v0.28.0",
+          "githubUrl": "https://github.com/Peternator7/strum",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tokio",
+          "ecosystem": "CARGO",
+          "version": "1.48.0",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tokio",
+          "githubCommit": "556820ff84030b37e74e11b86b7733f5795770ea",
+          "githubTag": "tokio-1.48.0",
+          "githubUrl": "https://github.com/tokio-rs/tokio",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tracing",
+          "ecosystem": "CARGO",
+          "version": "0.1.41",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tracing",
+          "githubCommit": "0ca78870815a34a345a908f48db057057e8803d2",
+          "githubTag": "tracing-0.1.41",
+          "githubUrl": "https://github.com/tokio-rs/tracing",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tracing-subscriber",
+          "ecosystem": "CARGO",
+          "version": "0.3.20",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tracing",
+          "githubUrl": "https://github.com/tokio-rs/tracing",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "url",
+          "ecosystem": "CARGO",
+          "version": "2.5.7",
+          "githubOrg": "servo",
+          "githubRepo": "rust-url",
+          "githubCommit": "43f47e2fcfdd132c531fb05aa16171ca85be95f4",
+          "githubTag": "v2.5.7",
+          "githubUrl": "https://github.com/servo/rust-url",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "futures-util",
+          "ecosystem": "CARGO",
+          "version": "0.3.32",
+          "githubOrg": "rust-lang",
+          "githubRepo": "futures-rs",
+          "githubCommit": "d9bba94c239daa1175a5bb2958f37a5c72db3f6a",
+          "githubTag": "0.3.32",
+          "githubUrl": "https://github.com/rust-lang/futures-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-util-0.3.32/src/stream/iter.rs"
+        },
+        {
+          "packageName": "aws-types",
+          "ecosystem": "CARGO",
+          "version": "1.3.14",
+          "githubOrg": "smithy-lang",
+          "githubRepo": "smithy-rs",
+          "githubUrl": "https://github.com/smithy-lang/smithy-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aws-types-1.3.14/src/region.rs"
+        },
+        {
+          "packageName": "aws-smithy-runtime-api",
+          "ecosystem": "CARGO",
+          "version": "1.11.6",
+          "githubOrg": "smithy-lang",
+          "githubRepo": "smithy-rs",
+          "githubUrl": "https://github.com/smithy-lang/smithy-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aws-smithy-runtime-api-1.11.6/src/client/behavior_version.rs"
+        },
+        {
+          "packageName": "aws-smithy-async",
+          "ecosystem": "CARGO",
+          "version": "1.2.14",
+          "githubOrg": "smithy-lang",
+          "githubRepo": "smithy-rs",
+          "githubUrl": "https://github.com/smithy-lang/smithy-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aws-smithy-async-1.2.14/src/future/pagination_stream.rs"
+        }
       ]
     }
   ],

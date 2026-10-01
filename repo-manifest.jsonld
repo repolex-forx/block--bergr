@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/block/bergr/commit/bbe9bf8c4a668fa56ec39a4214e078b52be5ab96",
       "git:hexsha": "bbe9bf8c4a668fa56ec39a4214e078b52be5ab96",
-      "repolex:parseStatus": "ast_complete",
+      "repolex:parseStatus": "enrich_complete",
       "git:tagName": "main"
     },
     {
